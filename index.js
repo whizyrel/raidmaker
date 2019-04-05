@@ -1,4 +1,4 @@
-const {encodePool} = require('../test/charList');
+const {encodePool} = require('./test/charList');
 
 /**
  * @class

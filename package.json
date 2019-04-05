@@ -1,0 +1,24 @@
+{
+  "name": "raidmaker",
+  "version": "1.0.0",
+  "description": "makes random identity string per specified length",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whizyrel/raidmaker.git"
+  },
+  "keywords": [
+    "random",
+    "strings",
+    "maker"
+  ],
+  "author": "Israel Oluwole O.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whizyrel/raidmaker/issues"
+  },
+  "homepage": "https://github.com/whizyrel/raidmaker#readme"
+}

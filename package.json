@@ -2,7 +2,7 @@
   "name": "raidmaker",
   "version": "1.1.0",
   "description": "makes random identity string per specified length",
-  "main": "index.js",
+  "main": "raidmaker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

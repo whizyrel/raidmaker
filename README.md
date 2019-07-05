@@ -1,4 +1,4 @@
-# raidmaker https://img.shields.io/badge/status-stable-green.svg https://img.shields.io/badge/version-1.3.2-green.svg
+# raidmaker
 
 It makes random strings per specified length. It can be used as id in database and apps supported by the environment.
 

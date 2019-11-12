@@ -13,7 +13,7 @@ class RAIDMaker {
    * @function generate
    * @param {Number} length
    * @param {options} options
-   * @return {String} a String id
+   * @return {String | Array} String | Array
    */
   generate(
       length = 5,

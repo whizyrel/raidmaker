@@ -31,6 +31,12 @@ Generate the strings given the length
   `length` <number> length of string returned. `default`: 5
   `options`
     `no` <number> of id element in the returned `Array`. `default`: 1, a `string` is returned
+    `mode` <string> either of:
+      - `apnr` || `alphanumeric` for alphanumeric
+      - `figs` || `figures` for figures
+      - `alpha` || `alphabets` for alphabets
+      - `as` || `alphaspecial` for alphabets with special characters
+      - `all` for all characters
 
 ```js
 console.log(raidmaker.generate(5));
@@ -38,7 +44,7 @@ console.log(raidmaker.generate(5));
 // WjMOs
 ```
 
-## Project Status, Whats new?git status
+## Project Status, Whats new?
 
 - default length
 - support for more than one elements

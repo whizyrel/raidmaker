@@ -12,8 +12,8 @@ module.exports = Object.freeze({
   ],
   figs: [...numberCharPool],
   figures: [...numberCharPool],
-  alphas: [...lowerCasePool, ...upperCasePool],
   alpha: [...lowerCasePool, ...upperCasePool],
+  alphabets: [...lowerCasePool, ...upperCasePool],
   as: [
     ...lowerCasePool, ...upperCasePool, ...specialCharPool,
   ],

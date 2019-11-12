@@ -43,5 +43,5 @@ console.log(raidmaker.generate(5));
 - default length
 - support for more than one elements
 
-## Support, Suggestion...
+## Support, Suggestion, Bugs...
 Visit the Github repository. Thanks

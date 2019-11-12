@@ -1,4 +1,6 @@
-const {encodePool} = require('./resources/char-list');
+const {
+  encodePool,
+} = require('./resources/char-list');
 
 /**
  * @class

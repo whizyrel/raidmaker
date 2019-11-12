@@ -11,11 +11,23 @@ class RAIDMaker {
   /**
    * generates random numbers specified
    * @function generate
-   * @param {String} no
-   * @return {String} a String ID
+   * @param {Number} length
+   * @param {options} options
+   * @return {String} a String id
    */
-  generate(no) {
-    return RAIDMaker.genID(no);
+  generate(
+      length = 5,
+      {no = 1, mode = 'alphanumeric'} = {}
+  ) {
+    const _id = [];
+    if (no === 1) {
+      return RAIDMaker.genID(length);
+    } else {
+      for (let i = 0; _id.length < no; i++) {
+        _id.push(RAIDMaker.genID(length));
+      }
+      return _id;
+    }
   }
 
   /**

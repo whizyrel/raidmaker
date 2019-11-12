@@ -1,6 +1,5 @@
-const {
-  encodePool,
-} = require('./resources/char-list');
+const {encodePool} = require('./resources/char-list');
+const shortcodes = require('./resources/short-codes');
 
 /**
  * @class
@@ -23,10 +22,10 @@ class RAIDMaker {
   ) {
     const _id = [];
     if (no === 1) {
-      return RAIDMaker.genID(length);
+      return RAIDMaker.genID(length, mode);
     } else {
       for (let i = 0; _id.length < no; i++) {
-        _id.push(RAIDMaker.genID(length));
+        _id.push(RAIDMaker.genID(length, mode));
       }
       return _id;
     }
@@ -34,20 +33,25 @@ class RAIDMaker {
 
   /**
    * @function genID
-   * @param {String} length
+   * @param {Number} length
+   * @param {String} _mode
    * @return {String} id
    */
-  static genID(length) {
+  static genID(length, _mode = null) {
     const container = [];
     while (container.length < length) {
       container.push(
+        _mode !== null ?
+          shortcodes[_mode][
+              +[Math.floor(Math.random() * shortcodes[_mode].length)]
+          ] :
           Object.keys(encodePool)[
               +[Math.floor(Math.random() * Object.keys(encodePool).length)]
           ]
       );
     }
     return container.join('');
-  }
+  };
 }
 
 module.exports = Object.freeze(new RAIDMaker());

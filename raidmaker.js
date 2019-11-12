@@ -1,4 +1,4 @@
-const { encodePool } = require('./charList');
+const {encodePool} = require('./resources/char-list');
 
 /**
  * @class
@@ -27,9 +27,9 @@ class RAIDMaker {
     const container = [];
     while (container.length < no) {
       container.push(
-        Object.keys(encodePool)[
-          +[Math.floor(Math.random() * Object.keys(encodePool).length)]
-        ]
+          Object.keys(encodePool)[
+              +[Math.floor(Math.random() * Object.keys(encodePool).length)]
+          ]
       );
     }
     return container.join('');

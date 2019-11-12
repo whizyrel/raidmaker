@@ -1,6 +1,6 @@
 {
   "name": "raidmaker",
-  "version": "1.3.2",
+  "version": "1.3.3-",
   "description": "makes random identity string from specified length",
   "main": "raidmaker.js",
   "scripts": {

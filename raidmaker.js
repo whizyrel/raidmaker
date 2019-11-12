@@ -32,12 +32,12 @@ class RAIDMaker {
 
   /**
    * @function genID
-   * @param {String} no
-   * @return {String} a Stirng ID
+   * @param {String} length
+   * @return {String} id
    */
-  static genID(no) {
+  static genID(length) {
     const container = [];
-    while (container.length < no) {
+    while (container.length < length) {
       container.push(
           Object.keys(encodePool)[
               +[Math.floor(Math.random() * Object.keys(encodePool).length)]
@@ -48,4 +48,4 @@ class RAIDMaker {
   }
 }
 
-module.exports = new RAIDMaker();
+module.exports = Object.freeze(new RAIDMaker());

@@ -20,24 +20,28 @@ npm install raidmaker
 ```js
 const raidmaker = require('raidmaker'); // or
 const { generate } = require('raidmaker');
+
+console.log(generate(8, {no: 6}));
+// [ 'AXaT6', 'V7xun', 'CPM2c', '2kvbg', 'c93ZQ', 'GdHcv' ]
 ```
 
 ## generate
 
 Generate the strings given the length
+  `length` <number> length of string returned. `default`: 5
+  `options`
+    `no` <number> of id element in the returned `Array`. `default`: 1, a `string` is returned
 
 ```js
-const length = 5;
-raidmaker.generate(length); // returns the a string of the length specified
+console.log(raidmaker.generate(5));
+
+// WjMOs
 ```
 
-## Fixes
+## Project Status, Whats new?git status
 
-- last element being undefined since the previous version before this
+- default length
+- support for more than one elements
 
-# Project Status
-
-I sincerely apologize for the troubles and I'm glad to announce that this version is now stable and functional. I really do not have time to write readmes but support and contributions are welcome.
-
-#Support
-Visit the Github repository for
+## Support, Suggestion...
+Visit the Github repository. Thanks

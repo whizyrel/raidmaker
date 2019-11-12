@@ -7,7 +7,7 @@
 class CharList {
   /**
    * @function getUpperCase
-   * @return {Array} contains Upper Case characters
+   * @return {Array} Array of block Case characters
    */
   getUpperCaseChars() {
     return [
@@ -42,7 +42,7 @@ class CharList {
 
   /**
    * @function getLowerCaseChars
-   * @return {Array} An array
+   * @return {Array} Array of small case characters
    */
   getLowerCaseChars() {
     return [
@@ -77,7 +77,7 @@ class CharList {
 
   /**
    * @function getSpecialChars
-   * @return {Array} contains Upper Case characters
+   * @return {Array} Array special characters
    */
   getSpecialChars() {
     return [
@@ -113,7 +113,7 @@ class CharList {
 
   /**
    * @function getNumberChars
-   * @return {Array} An array
+   * @return {Array} Array of Numbers
    */
   getNumberChars() {
     return [

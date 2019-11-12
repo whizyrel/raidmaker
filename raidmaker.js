@@ -51,7 +51,7 @@ class RAIDMaker {
       );
     }
     return container.join('');
-  };
+  }
 }
 
 module.exports = Object.freeze(new RAIDMaker());

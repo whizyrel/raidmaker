@@ -146,10 +146,10 @@ class CharList {
  * @module test / charList
  * @see module: test / charList
   */
-module.exports = {
+module.exports = Object.freeze({
   encodePool: new CharList().getAllChars(),
   upperCasePool: new CharList().getUpperCaseChars(),
   lowerCasePool: new CharList().getLowerCaseChars(),
   specialCharPool: new CharList().getSpecialChars(),
   numberCharPool: new CharList().getNumberChars(),
-};
+});

@@ -40,8 +40,13 @@ Generate the strings given the length
 
 ```js
 console.log(raidmaker.generate(5));
-
 // WjMOs
+
+console.log(raidmaker.generate(25, {mode: 'alphaspecial'})); // GvSb&k\WUYHXlrx#zxsVjfppH
+console.log(raidmaker.generate(25, {mode: 'apnr'})); // 6IlWaZLnTQEeO8sDyAbSbhquA
+console.log(raidmaker.generate(25, {mode: 'alpha'})); // pQjzQFrImUNSYBgMKELgGuosK
+console.log(raidmaker.generate(25, {mode: 'all'})); // kQKCIuK&#xRGtwl65IarJ-S\Z
+console.log(raidmaker.generate(25, {mode: 'figs'})); // 3140011315334175469386711
 ```
 
 ## Project Status, Whats new?

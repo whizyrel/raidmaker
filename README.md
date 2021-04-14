@@ -1,6 +1,7 @@
 # raidmaker
 
 It makes random strings per specified length. It can be used as id in database and apps supported by the environment.
+[![Raidmaker Package](https://github.com/whizyrel/raidmaker/actions/workflows/npm-publish.yml/badge.svg?branch=pre-release)](https://github.com/whizyrel/raidmaker/actions/workflows/npm-publish.yml)
 
 ## Requirement
 

@@ -1,0 +1,8 @@
+webpack.config.js
+tslint.json
+README.md
+.npmignore
+.gitignore
+LICENSE
+package-lock.json
+resources

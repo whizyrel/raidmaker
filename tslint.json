@@ -1,0 +1,17 @@
+{
+    "defaultSeverity": "error",
+    "extends": ["tslint:recommended"],
+    "jsRules": {},
+    "rules": {
+      "no-console": false,
+      "semicolon": true,
+      "prefer-for-of": false,
+      "no-unused-expression": false,
+      "typedef": [
+        true,
+        "call-signature",
+        "arrow-call-signature"
+      ]
+    },
+    "rulesDirectory": []
+}
